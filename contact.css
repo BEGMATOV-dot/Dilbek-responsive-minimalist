@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'IbarraRealNova';
+  src: url('./fonts/IbarraRealNova-Bold.woff') format('woff'),
+       url('./fonts/IbarraRealNova-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IbarraRealNova';
+  src: url('./fonts/IbarraRealNova-Regular.woff') format('woff'),
+       url('./fonts/IbarraRealNova-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+}
+
+.get{
+    margin-top: 90px;
+}
+
+.get-text{
+    padding-left: 680px;
+}
+
+.get-title{
+    font-size: 40px;
+}
+
+.get-img{
+    width: 104px;
+    height: 24px;
+    margin-left: 680px;
+}
+
+.container1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2{
+    margin-bottom: 350px;
+    font-size: 40px;
+}
+
+.text1{
+    width: 634px;
+    height: 75px;
+    padding-left: 16px;
+}
+
+.text3{
+    width: 635px;
+    height: 134px;
+    padding: 16px;
+}
+
+.form{
+    width: 635px;
+    height: 426px;
+    font-size: 10px;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.text-btn{
+    width: 200px;
+    height: 48px;
+    background: #203A4C;
+    color: white;
+}
+
+.text-btn:hover{
+    box-shadow: -4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.text-btn:active{
+    background-color: blue;
+}
+
+.get-img1{
+    margin-top: 120px;
+}
+
+.container3{
+    margin-top: 100px;
+    background:  #33323D;
+    height: 80px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.a{
+    color: white;
+}
+
+.navbar-img1{
+    margin-top: 30px;
+    filter: brightness(0) invert(1);
+}
+
+.navbar-img{
+    margin-left: 30px;
+    margin-top: 30px;
+    filter: brightness(0) invert(1);
+}
+
+.list2{
+    display: flex;
+    color: white;
+}
+
+.ul1{
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    gap: 50px;
+    margin-right: 900px;
+    color: white;
+}
