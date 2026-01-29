@@ -24,7 +24,7 @@
 }
 
 .container {
-    width: 1440px;
+    width: 1240px;
     margin: 0 auto;
 }
 
@@ -69,7 +69,7 @@ nav {
 }
 
 .hero-img {
-    padding-top: 120px;
+    padding-top: 80px;
 }
 
 .hero-title {
@@ -221,7 +221,10 @@ hr {
     color: white;
 }
 
-@media only screen and (max-width:311px) {
+@media only screen and (max-width:350px) {
+
+    
+
     body {
         background-color: rgb(255, 255, 255);
     }
@@ -236,23 +239,28 @@ hr {
 
     .fa-solid {
         display: inline-block;
+        margin-left: 100px;
     }
 
     .img {
-        width: 811px;
-        height: 471px;
+        width: 1311px;
+        height: 671px;
         margin-top: 104px;
         opacity: 1;
+    }
+
+    .nav-img{
+        width: 200px;
     }
 
     .hero-card {
         width: 811px;
         height: 471px;
-        margin-top: 275px;
+        margin-top: 475px;
     }
 
     .hero-title {
-        font-size: 60px;
+        font-size: 80px;
     }
 
     .about {
@@ -265,13 +273,16 @@ hr {
     }
 
     .about-img {
-        width: 811px;
-        height: 671px;
+        width: 1311px;
+        height: 771px;
+        margin-left: 500px;
+        margin-top: 60px;
     }
 
     .text1 {
-        width: 910px;
-        height: 617px;
+        width: 1400px;
+        height: 817px;
+        margin-left: 500px;
         padding-top: 21px;
         margin-right: 95px;
     }
@@ -281,27 +292,30 @@ hr {
     }
 
     .about-title{
-        font-size: 60px;
+        font-size: 100px;
     }
 
     .about-text{
         font-size: 20px;
         line-height: 30px;
+        line-break: 30px ;
     }
 
     .contact{
         flex-direction: column;
     }
 
+    
+
     .contact-title{
         font-size: 120px;
-        margin-right: 300px;
+        margin-left: 200px;
         margin-top: 60px;
     }
     
     .contact-btn{
-        width: 400px;
-        height: 80px;
+        width: 450px;
+        height: 90px;
         font-size: 40px;
     }
 
@@ -311,7 +325,7 @@ hr {
 
 
     .container3{
-        width: 1000px;
+        width: 1310px;
         height: 500px;
         margin-top: 650px;
     }
