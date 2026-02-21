@@ -300,7 +300,13 @@ hr {
 
     .hero-card{
         margin-top: 80px;
+        width: 430px;
         
+    }
+
+    .hero-img{
+        width: 130px;
+        height: 100px;
     }
 
     .about{
@@ -345,6 +351,6 @@ hr {
         margin-left: 130px;
     }
 
-    
+  
 
 }
