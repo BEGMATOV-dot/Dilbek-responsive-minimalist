@@ -351,6 +351,12 @@ hr {
         margin-left: 130px;
     }
 
-  
+    .contact-btn{
+        padding-right: 40px;
+    }
+
+    .contact{
+        width: 420px;
+    }
 
 }
