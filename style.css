@@ -290,11 +290,12 @@ hr {
     }
 
     nav{
-        width: 430px;
+        margin-top: 20px;
+        width: 420px;
     }
 
     .img{
-        width: 450px;
+        width: 420px;
         height: 280px;
     }
 
@@ -305,8 +306,8 @@ hr {
     }
 
     .hero-img{
-        width: 130px;
-        height: 100px;
+        width: 150px;
+        height: 110px;
     }
 
     .about{
