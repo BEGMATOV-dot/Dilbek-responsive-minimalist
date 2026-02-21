@@ -1,206 +1,210 @@
-
 @font-face {
-  font-family: 'IbarraRealNova';
-  src: url('./fonts/IbarraRealNova-Bold.woff') format('woff'),
-       url('./fonts/IbarraRealNova-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
+    font-family: 'IbarraRealNova';
+    src: url('./fonts/IbarraRealNova-Bold.woff') format('woff'),
+        url('./fonts/IbarraRealNova-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'IbarraRealNova';
-  src: url('./fonts/IbarraRealNova-Regular.woff') format('woff'),
-       url('./fonts/IbarraRealNova-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
+    font-family: 'IbarraRealNova';
+    src: url('./fonts/IbarraRealNova-Regular.woff') format('woff'),
+        url('./fonts/IbarraRealNova-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
 }
 
-*{
-    margin: 0 ;
+* {
+    margin: 0;
     padding: 0;
     list-style: none;
     box-sizing: border-box;
     text-decoration: none;
+    overflow-x: hidden;
 }
 
-.container3{
-    width: 1440px;
+.container3 {
+    width: 1140px;
     margin: 0 auto;
-    
+
 }
 
-.container4{
-    
-    width: 1111px;
+.container4 {
+
+    width: 1140px;
     margin-left: 130px;
 }
 
-.portfoilo-navbar{
+.portfoilo-navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-ul{
+ul {
     display: flex;
     gap: 20px;
     list-style: none;
 }
 
-.portfoilo-list{
-   display: flex;
-   gap: 50px;
-   justify-content: space-between;
+.portfoilo-list {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
 }
 
-.fa-solid{
+.hero2-img,
+.hero3-img {
+
+    width: 540px;
+    height: 500px;
+
+}
+
+.fa-solid {
     display: none;
 }
 
-.hero2-img{
-    width: 540px;
+.hero2-img:hover {
+    box-shadow: -8px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.manage2 {
+    width: 350px;
     height: 500px;
+
 }
 
-.hero2-img:hover{
-     box-shadow: -8px 4px 8px 0px rgba(34, 60, 80, 0.2);
+.manage3 {
+    width: 350px;
+  
+
+    margin-right: 100px;
 }
 
-.manage{
-width: 500px;
-height: 500px;
-padding-left: 190px;
-margin-left: 100px;
-align-items: center;
+.manage {
+
+    padding-left: 100px;
+    margin-left: 100px;
+    align-items: center;
 }
 
-.hero2{
+
+
+.hero2 {
+
     display: flex;
     margin-top: 80px;
 }
 
 
-.manage-hr1{
+.manage-hr1 {
     margin-bottom: 70px;
 }
 
-.manage-hr2{
+.manage-hr2 {
     margin-top: 200px;
 }
 
-.manage-hr3{
+.manage-hr3 {
     margin-top: 168px;
 }
 
-.manage-btn{
+.manage-btn {
     width: 175px;
     height: 38px;
     padding-top: 12px;
     background-color: white;
 }
 
-.manage-btn:hover{
-     box-shadow: -8px 4px 8px 0px rgba(34, 60, 80, 0.2);
+.manage-btn:hover {
+    box-shadow: -8px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
-.manage-btn:active{
+.manage-btn:active {
     background-color: blue;
     color: white;
 }
 
-.manage1{
-width: 350px;
-height: 500px;
-padding-left: 10px;
-margin-right: 100px;
-align-items: center; 
-}
 
-.hero3{
+
+.hero3 {
     display: flex;
-    padding-left: 200px;
+    padding-left: 100px;
 }
 
-.contact1{
-width: 1440px;
-height: 314px;
-top: 1650px;
+.contact1 {
+    height: 200px;
+    margin-top: 160px;
 }
 
-.hr5{
-    width:  534px;
+.hr5 {
+    width: 534px;
 }
 
-.contact3{
-width: 1110px;
-height: 84px;
-display: flex;
-align-items: center;
-gap: 50px;
-font-size: 20px;
-height: 84px;
-padding-top: 180px;
+.contact3 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 20px;
 }
 
-.contact-btn{
-width: 162px;
-height: 48px;
-top: 18px;
-left: 948px;
-opacity: 1;
-background-color: white;
-padding-top: 14px;
+.contact-btn {
+    width: 162px;
+    height: 48px;
+    top: 18px;
+    left: 948px;
+    opacity: 1;
+    background-color: white;
+    padding-top: 14px;
 }
 
-.contact-btn:hover{
-     box-shadow: -8px 4px 8px 0px rgba(34, 60, 80, 0.2);
+.contact-btn:hover {
+    box-shadow: -8px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
-.contact-btn:active{
+.contact-btn:active {
     background-color: blue;
     color: white;
 }
 
-.group10{
-    width: 1440px;
-height: 80px;
-opacity: 1px;
-margin-top: 70px;
-}
 
-.container5{
-    background:  #33323D;
+
+.container5 {
+    
+    background: #33323D;
     height: 80px;
 }
 
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: white;
 }
 
-.a1{
+.a1 {
     color: white;
 }
 
-.navbar-img1{
+.navbar-img1 {
     margin-top: 30px;
     filter: brightness(0) invert(1);
 }
 
-.navbar-img1{
+.navbar-img1 {
     margin-left: 30px;
     margin-top: 30px;
     filter: brightness(0) invert(1);
 }
 
-.list2{
+.list2 {
+    width: 200px;
     display: flex;
     color: white;
 }
 
-.ul1{
+.ul1 {
     margin-left: 30px;
     margin-top: 20px;
     display: flex;
@@ -209,35 +213,97 @@ margin-top: 70px;
     color: white;
 }
 
-@media only screen and (max-width:311px) {
+@media only screen and (max-width:770px) {
 
-    body{background-color: rgb(255, 255, 255);}
-
-    .portfoilo-list{
-        display: none;
+    .portfoilo-navbar{
+        width: 800px;
     }
 
-    .fa-solid{
-        display: inline-block;
+    .hero2-img{
+        width: 350px;
+        height: 300px;
     }
 
-    .nav-img{
+   
+
+    .manage2{
+        width: 281px;
+        height: 350px;
+    }
+
+    .manage1{
+     width: 281px;
+    }
+
+    .hero3{
+        gap: 50px;
+    }
+
+    .hero3-img{
+        width: 350px;
+        height: 300px;
+    }
+
+    .contact3{
+        font-size: 10px;
+        width: 700px;
+        margin-left: 40px;
+    }
+
+    .contact-btn{
         width: 200px;
+        height: 30px;
+        padding-right: 80px;
+        padding-bottom: 30px;
     }
 
-    .hero2, .hero3{
+    
+
+  
+}
+
+@media only screen and (max-width:451px) {
+    
+    .portfoilo-navbar{
+        width: 500px;
+    }
+
+    .hero2{
         flex-direction: column;
     }
 
     .hero2-img{
-        width: 1140px;
-        margin-left: 190px;
+        width: 450px;
+        height: 350px;
     }
 
-    .manage{
-        width: 1340px;
-        margin-top: 150px;
-        margin-right: 500px;
+    .manage2{
+       margin-left: -100px;
+       overflow-y: hidden;
+    }
+
+    .manage-hr2{
+        margin-bottom: 1000px;
+    }
+
+    .hero3{
+        flex-direction: column-reverse;
+    }
+
+    .hero3-img{
+        width: 450px;
+        height: 350px;
+        margin-left: -100px;
+    }
+
+    .contact3{
+        font-size: 10px;
+        width: 400px;
+        
+    }
+
+    .hr5{
+        display: none;
     }
 
 }
