@@ -306,8 +306,12 @@ hr {
     }
 
     .hero-img{
-        width: 150px;
-        height: 110px;
+        width: 170px;
+        height: 130px;
+    }
+
+    .hero-title{
+        width: 500px;
     }
 
     .about{
